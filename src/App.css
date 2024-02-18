@@ -1,0 +1,27 @@
+.group-name {
+  height: 70px;
+  width: 70px;
+  background-color: red;
+  border-radius: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 25%;
+  padding: 20px;
+}
+.grp-div {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  cursor: pointer;
+}
+.grp-text {
+  font-size: 24px;
+  font-weight: 500;
+}
